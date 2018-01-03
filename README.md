@@ -10,7 +10,7 @@ increased training speed with long sequences.
 
 However, the PredNet model is too complex for a realtime application !!
 
-The code is just an example, to extend it at the application level you should create your own traning file following the test function created to the inside PredNetModel.py
+The code is just an example, to extend it at the application level you should create your own training file following the test function created to the inside PredNetModel.py
 
 [PredNet Animation](https://coxlab.github.io/prednet/prednet_animation.html)
 
