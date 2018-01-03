@@ -21,6 +21,7 @@ class ConvGRUCell(nn.Module):
         dtype            = torch.FloatTensor
     
     def forward(self,input,hidden):
+        
         if hidden is None:
            size_h    = [input.data.size()[0],self.hidden_size] + list(input.data.size()[2:])
            hidden    = Variable(torch.zeros(size_h)).cuda()
